@@ -1,0 +1,16 @@
+{
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/about/page": "/about",
+  "/academics/page": "/academics",
+  "/admissions/page": "/admissions",
+  "/contact/page": "/contact",
+  "/facilities/page": "/facilities",
+  "/faculty/page": "/faculty",
+  "/favicon.ico/route": "/favicon.ico",
+  "/gallery/page": "/gallery",
+  "/news/page": "/news",
+  "/page": "/",
+  "/parents/page": "/parents",
+  "/students/page": "/students"
+}
