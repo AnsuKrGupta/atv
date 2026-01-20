@@ -1,0 +1,56 @@
+.footer {
+    background-color: #1a1a1a;
+    color: #cccccc;
+    padding: 4rem 0 2rem;
+    margin-top: auto;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.column h3 {
+    color: var(--color-white);
+    margin-bottom: 1.5rem;
+    font-family: var(--font-serif);
+}
+
+.linkList {
+    list-style: none;
+    padding: 0;
+}
+
+.linkList li {
+    margin-bottom: 0.75rem;
+}
+
+.linkList a {
+    transition: color 0.2s;
+}
+
+.linkList a:hover {
+    color: var(--color-accent);
+}
+
+.contactInfo p {
+    margin-bottom: 0.75rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.bottomBar {
+    border-top: 1px solid #333;
+    padding-top: 2rem;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+@media (min-width: 768px) {
+    .grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
